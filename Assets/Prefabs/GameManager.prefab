@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1103043803780103467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4559710253350671376}
+  - component: {fileID: 5798455331655963686}
+  m_Layer: 0
+  m_Name: Player3 Stats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4559710253350671376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103043803780103467}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3486763357747953936}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5798455331655963686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103043803780103467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c4545b63bb0c741a7a9f6d01767750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Ralph
+  playerLevel: 3
+  currentXP: 150
+  expToNextLevel: 
+  maxLevel: 100
+  baseExp: 1000
+  currentHP: 100
+  maxHP: 100
+  currentMP: 0
+  maxMP: 25
+  bonusMP: 000000000000000005000000000000000a00000000000000000000000c00000000000000000000000f0000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  strength: 0
+  defense: 0
+  weaponPower: 0
+  armorPower: 0
+  equippedWeapon: 
+  equippedArmor: 
+  characterImage: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+--- !u!1 &2901517611370212318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3486763357747953936}
+  - component: {fileID: 5815101298546011649}
+  - component: {fileID: 3337681710977807990}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3486763357747953936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2901517611370212318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.102583, y: 2.7820735, z: -2.3608925}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3337681711933219979}
+  - {fileID: 2899534410423044943}
+  - {fileID: 4559710253350671376}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5815101298546011649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2901517611370212318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c167ea032216f1b47bf7244bec265899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charStat:
+  - {fileID: 3337681711933219978}
+  - {fileID: 8521704603267047119}
+  - {fileID: 5798455331655963686}
+  gameMenuOpen: 0
+  dialogActive: 0
+  fadingBetweenAreas: 0
+  shopActive: 0
+  battleActive: 0
+  itemsHeld:
+  - 
+  - 
+  - 
+  - 
+  - Health Potion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Mana Potion
+  - 
+  - 
+  - Wooden Sword
+  - 
+  - 
+  - 
+  - Leather Armor
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Iron Sword
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  numberOfItems: 000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000020000000000000000000000020000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000
+  referenceItems:
+  - {fileID: 1052951504941764342, guid: 4ad5d7e2765c86c4dbd6d6b072ff31ac, type: 3}
+  - {fileID: 789483868654967127, guid: 440907335aa41094f8d405ac6077850d, type: 3}
+  - {fileID: 477103535772093067, guid: a71722d8e9e21eb46aa7bcb406526251, type: 3}
+  - {fileID: 1691894008834802012, guid: 6156cf299581da14eb8c1864e54fcb75, type: 3}
+  - {fileID: 4406982920343083255, guid: 1024487109cf1c54498ddb956fdd7c66, type: 3}
+  - {fileID: 2258765244001659073, guid: 4cfbab3db8fcc7744a92e80d20da4093, type: 3}
+  currentGold: 100
+--- !u!114 &3337681710977807990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2901517611370212318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f71038d70d05a45af1b2fefd6971d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMakerNames:
+  - 
+  - Initial dialog
+  - Enter the cave
+  - Quest test
+  - Save the world
+  - Find Tim's mom
+  - Dungeon5 Battle1
+  - Dungeon5 Battle2
+  - Dungeon5 Battle3
+  - Dungeon5 Battle4
+  - Dungeon5 Chest
+  questMakersComplete: 
+--- !u!1 &3337681711933219977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3337681711933219979}
+  - component: {fileID: 3337681711933219978}
+  m_Layer: 0
+  m_Name: Player1 Stats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3337681711933219979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3337681711933219977}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3486763357747953936}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3337681711933219978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3337681711933219977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c4545b63bb0c741a7a9f6d01767750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Tim
+  playerLevel: 1
+  currentXP: 250
+  expToNextLevel: 
+  maxLevel: 100
+  baseExp: 1000
+  currentHP: 100
+  maxHP: 100
+  currentMP: 20
+  maxMP: 30
+  bonusMP: 000000000000000005000000000000000a00000000000000000000000c00000000000000000000000f0000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  strength: 15
+  defense: 12
+  weaponPower: 0
+  armorPower: 0
+  equippedWeapon: 
+  equippedArmor: 
+  characterImage: {fileID: 7152930139536384079, guid: 0094388859863f443b2573930f7bc625,
+    type: 3}
+--- !u!1 &7760225260873147749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2899534410423044943}
+  - component: {fileID: 8521704603267047119}
+  m_Layer: 0
+  m_Name: Player2 Stats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2899534410423044943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760225260873147749}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3486763357747953936}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8521704603267047119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760225260873147749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c4545b63bb0c741a7a9f6d01767750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Woody
+  playerLevel: 3
+  currentXP: 543
+  expToNextLevel: 
+  maxLevel: 10
+  baseExp: 1000
+  currentHP: 150
+  maxHP: 150
+  currentMP: 25
+  maxMP: 25
+  bonusMP: 000000000000000005000000000000000a00000000000000000000000c00000000000000000000000f0000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  strength: 22
+  defense: 16
+  weaponPower: 0
+  armorPower: 0
+  equippedWeapon: 
+  equippedArmor: 
+  characterImage: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}

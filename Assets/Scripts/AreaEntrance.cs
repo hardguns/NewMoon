@@ -13,6 +13,13 @@ public class AreaEntrance : MonoBehaviour
             if (transitionName == PlayerController.player.areaTransitionName)
             {
                 PlayerController.player.transform.position = transform.position;
+                Debug.LogWarning("Are equals");
+            }
+            else
+            {
+                Debug.LogWarning("Not equals");
+                Debug.LogWarning(PlayerController.player.areaTransitionName);
+                Debug.LogWarning(transitionName);
             }
 
             UIFade.instance.FadeFromBlack();

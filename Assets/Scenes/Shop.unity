@@ -2026,9 +2026,9 @@ MonoBehaviour:
   - 
   linesForDialog:
   - n-ShopKeeper
-  - Hola viajero
+  - Traveler
   - n-ShopKeeper
-  - Tengo objetos increibles para ti
+  - I got incredible objects for you!
 --- !u!1 &528838999
 GameObject:
   m_ObjectHideFlags: 0
@@ -2075,7 +2075,7 @@ Transform:
   - {fileID: 68466047}
   - {fileID: 179032377}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &615461110
 PrefabInstance:
@@ -2127,7 +2127,7 @@ PrefabInstance:
     - target: {fileID: 3486763357747953936, guid: c88f10bff81ac49469d720517a9c39d5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3486763357747953936, guid: c88f10bff81ac49469d720517a9c39d5,
         type: 3}
@@ -8163,7 +8163,7 @@ PrefabInstance:
     - target: {fileID: 4035439037673838044, guid: 95d4ae2fb91d2d24187b71d698d18cd4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.97
+      value: -7.77
       objectReference: {fileID: 0}
     - target: {fileID: 4035439037673838044, guid: 95d4ae2fb91d2d24187b71d698d18cd4,
         type: 3}
@@ -8210,10 +8210,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 4035439037673838047, guid: 95d4ae2fb91d2d24187b71d698d18cd4,
+        type: 3}
+      propertyPath: areaToLoad
+      value: Countryside-T
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035439037673838047, guid: 95d4ae2fb91d2d24187b71d698d18cd4,
+        type: 3}
+      propertyPath: areaTransitionName
+      value: Shop-1
+      objectReference: {fileID: 0}
     - target: {fileID: 7965861228301158498, guid: 95d4ae2fb91d2d24187b71d698d18cd4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.23
+      value: 2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1337699909603446419, guid: 95d4ae2fb91d2d24187b71d698d18cd4,
+        type: 3}
+      propertyPath: transitionName
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d4ae2fb91d2d24187b71d698d18cd4, type: 3}
@@ -8232,7 +8247,7 @@ PrefabInstance:
     - target: {fileID: 3433200511980711459, guid: 237516c520d96754e9fb42d641294469,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.1522775
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3433200511980711459, guid: 237516c520d96754e9fb42d641294469,
         type: 3}

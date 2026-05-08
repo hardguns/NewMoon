@@ -9108,7 +9108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442871064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 781231749}
@@ -11333,12 +11333,12 @@ PrefabInstance:
     - target: {fileID: 4035439037673838047, guid: 95d4ae2fb91d2d24187b71d698d18cd4,
         type: 3}
       propertyPath: areaTransitionName
-      value: Countryside
+      value: Cave-1
       objectReference: {fileID: 0}
     - target: {fileID: 7965861228301158498, guid: 95d4ae2fb91d2d24187b71d698d18cd4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.46
+      value: 1.88
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d4ae2fb91d2d24187b71d698d18cd4, type: 3}
@@ -11466,7 +11466,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993908139}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 781231749}

@@ -236,7 +236,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Game Name
+  m_Text: New Moon
 --- !u!222 &448135823
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1262,7 +1262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5509506260d2f984d88d9f7841da4762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGameScene: Village
+  newGameScene: Countryside-T
   continueButton: {fileID: 1166817668}
   loadGameScene: LoadingScene
 --- !u!1 &2084621669
